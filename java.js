@@ -1,4 +1,4 @@
-window.prompt("كا")
+window.prompt("كا");
 if (cash >= 100){
   document.getElementById(statement).innerHTML="👌أنت شخص مش منوفس"
 }else{
