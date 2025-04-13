@@ -1,8 +1,10 @@
-.statement {
-  color:#008331;
+#statement-id {
   margin: 100% 20%;
-  text-align:center;
+  text-align: center;
 }
-h1 {
-  color: red;
+.statementm{
+  color: #c51400;
+}
+.statement {
+  color: #008331;
 }
