@@ -1,5 +1,5 @@
 var cash;
-cach = window.prompt("هتد كا");
+cash = window.prompt("هتد كا");
 if (cash >= 100){
   document.getElementById(statement).innerHTML="👌أنت شخص مش منوفس";
 }else{
