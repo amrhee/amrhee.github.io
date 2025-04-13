@@ -1,6 +1,11 @@
 cash = window.prompt("كا");
 if (cash >= 100){
-  document.getElementById("statement-id").innerHTML="👌أنت شخص مش منوفس";
+  document.write("mmjjjjjjjj")
 }else{
-  // document.getElementById("statement-id").innerHTML="😁أنت شخص منوفس";
+  document.write("mm");
 }
+// if (cash >= 100){
+//   document.getElementById("statement-id").innerHTML="👌أنت شخص مش منوفس";
+// }else{
+//   document.getElementById("statement-id").innerHTML="😁أنت شخص منوفس";
+// }
