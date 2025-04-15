@@ -13,11 +13,11 @@ function funn(idd){
         if (noOfTimes%2 == 0) {
             document.getElementById(idd).innerHTML="O";
             console.log("O");
-            document.getElementById("mass").innerHTML="Now it's <b>X</b> turn";
+            document.getElementById("mass").innerHTML="دلوقتي دور&nbsp<b>X</b>";
         }else{
             document.getElementById(idd).innerHTML="X";
             console.log("X");
-            document.getElementById("mass").innerHTML="Now it's <b>O</b> turn";
+            document.getElementById("mass").innerHTML="دلوقتي دور&nbsp<b>O</b>";
         }
         
         
