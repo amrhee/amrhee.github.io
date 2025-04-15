@@ -39,6 +39,8 @@ function reStart() {
     document.getElementById("bl").innerHTML="&nbsp&nbsp";
     document.getElementById("bm").innerHTML="&nbsp&nbsp";
     document.getElementById("br").innerHTML="&nbsp&nbsp";
+    noOfTimes = 1;
+    document.getElementById("mass").innerHTML="ابدأ تاني!&nbspدور&nbsp<b>X</b>";
 }
 function funnn(idd){
     // document.getElementsByClassName(clas).innerHTML="x";
