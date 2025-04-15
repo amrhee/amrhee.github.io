@@ -35,7 +35,7 @@ td{ /* inner /*
     border-right: 0px;
 }
 /*  */
-#mass{
+#mass,#reStart{
     color: white;
     background-color: rgb(0, 100, 90);
     width: 200px;
