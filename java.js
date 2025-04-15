@@ -13,11 +13,11 @@ function funn(idd){
         if (noOfTimes%2 == 0) {
             document.getElementById(idd).innerHTML="O";
             console.log("O");
-            document.getElementById("mass").innerHTML="دلوقتي دور&nbsp<b>X</b>";
+            document.getElementById("mass").innerHTML="Now it's <b>X</b> turn";
         }else{
             document.getElementById(idd).innerHTML="X";
             console.log("X");
-            document.getElementById("mass").innerHTML="دلوقتي دور&nbsp<b>O</b>";
+            document.getElementById("mass").innerHTML="Now it's <b>O</b> turn";
         }
         
         
@@ -30,10 +30,15 @@ function funn(idd){
     }
 }
 function reStart() {
-    document.getElementById().innerHTML="&nbsp&nbsp";
-    document.getElementById().innerHTML="&nbsp&nbsp";
-    document.getElementById().innerHTML="&nbsp&nbsp";
-    
+    document.getElementById("tl").innerHTML="&nbsp&nbsp";
+    document.getElementById("tm").innerHTML="&nbsp&nbsp";
+    document.getElementById("tr").innerHTML="&nbsp&nbsp";
+    document.getElementById("ml").innerHTML="&nbsp&nbsp";
+    document.getElementById("mm").innerHTML="&nbsp&nbsp";
+    document.getElementById("mr").innerHTML="&nbsp&nbsp";
+    document.getElementById("bl").innerHTML="&nbsp&nbsp";
+    document.getElementById("bm").innerHTML="&nbsp&nbsp";
+    document.getElementById("br").innerHTML="&nbsp&nbsp";
 }
 function funnn(idd){
     // document.getElementsByClassName(clas).innerHTML="x";
