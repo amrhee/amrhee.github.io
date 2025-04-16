@@ -26,9 +26,6 @@ function funn(idd){
             document.write("x win");
         }
         noOfTimes++;
-        if(noOfTimes == 1){
-            document.getElementById("mass").style="display:none;";
-        }
         break;
     }
 }
