@@ -88,7 +88,7 @@ function funn(idd){
         ///////////////////////////////
         if (xtl == true && xtm == true && xtr == true) {
             win == true;
-            document.getElementById("mass").innerHTML=xwin;
+            document.getElementById("mass").innerHTML="xxxxxxxxx";
         }
         if (xml == true && xmm == true && xmr == true) {
             win == true;
