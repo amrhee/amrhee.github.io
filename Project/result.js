@@ -53,7 +53,7 @@ function searchh(event) {
     }
     if(NoFound == 0){
         document.getElementById("notfind").style.display="block";
-        document.getElementById("notfind").innerHTML="No results for \" <b>"+input+"</b> \"";
+        document.getElementById("notfind").innerHTML="No results for \" <b>"+document.searchForm.searchInput.value.trim()+"</b> \"";
     }
 }
 
